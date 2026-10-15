@@ -19,8 +19,8 @@ tuo.Position = UDim2.new(0, 0, 0, 0)
 tuo.Size = UDim2.new(1, 0, 0.15, 0)
 tuo.Text = "棍母脚本"
 tuo.TextColor3 = Color3.fromRGB(255, 255, 255)
-.BackgroundTransparency = 0.5
-Draggable = true
+tuo.BackgroundTransparency = 0.5
+tuo.Draggable = true
 tuo.TextScaled = false
 
 biao.Parent = game.Players.LocalPlayer.PlayerGui
