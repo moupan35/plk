@@ -1,0 +1,29 @@
+local biao = Instance.new("ScreenGui")
+local kuang = Instance.new("Frame")
+local yuan = Instance.new("UICorner")
+local tuo = Instance.new("TextLabel")
+local jiao = Instance.new("UICorner")
+
+kuang.Position = UDim2.new(0.207, 0, 0.097, 0)
+kuang.Size = UDim2.new(0.558, 0, 0.703, 0)
+kuang.BackgroundColor3 = Color3.fromRGB(225, 255, 255)
+kuang.BackgroundTransparency = 0
+kuang.Visible = true
+kuang.BorderSizePixel = 0
+biao.ResetOnSpawn = false
+yuan.CornerRadius = UDim.new(0, 11)
+jiao.CornerRadius = UDim.new(0, 11)
+tuo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+tuo.BorderSizePixel = 0
+tuo.Draggable = true
+tuo.Position = UDim2.new(0, 0, 0, 0)
+tuo.Size = UDim2.new(1, 0, 0.15, 0)
+tuo.Text = "棍母脚本"
+tuo.TextColor3 = Color3.fromRGB(255, 255, 255)
+tuo.TextScaled = false
+
+biao.Parent = game.StarterGui
+kuang.Parent = biao
+tuo.Parent = kuang
+yuan.Parent = kuang
+jiao.Parent = tuo
