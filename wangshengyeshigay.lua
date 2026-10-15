@@ -23,7 +23,7 @@ tuo.TextColor3 = Color3.fromRGB(255, 255, 255)
 Draggable = true
 tuo.TextScaled = false
 
-biao.Parent = game.StarterGui
+biao.Parent = game.Players.LocalPlayer.PlayerGui
 kuang.Parent = biao
 tuo.Parent = kuang
 yuan.Parent = kuang
