@@ -38,7 +38,7 @@ kuai.Position = UDim2.new(0.01, 0, 0.025, 0)
 kuai.Size = UDim2.new(0.132, 0, 0.126, 0)
 kuai.Text = "显示"
 kuai.TextColor3 = Color3.fromRGB(255, 255, 255)
-yyy..CornerRadius = UDim.new(0, 5)
+yyy.CornerRadius = UDim.new(0, 5)
 
 biao.Parent = game.Players.LocalPlayer.PlayerGui
 kuang.Parent = biao
@@ -46,3 +46,4 @@ tuo.Parent = kuang
 yuan.Parent = kuang
 jiao.Parent = tuo
 kuai.Parent = biao
+yyy.Parent = kuai
