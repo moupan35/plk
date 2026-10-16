@@ -50,9 +50,9 @@ kuai.Parent = biao
 yyy.Parent = kuai
 
 kuai.MouseButton1Click:Connect(function()
-    kg == not kg
+    kg = not kg
 
-    if kg = true then
+    if kg == true then
       kuai.Text = "关闭"
       kuang.Visible = false
     else
