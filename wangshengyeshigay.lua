@@ -5,6 +5,7 @@ local tuo = Instance.new("TextLabel")
 local jiao = Instance.new("UICorner")
 local kuai = Instance.new("TextButton")
 local yyy = Instance.new("UICorner")
+local kg = false
 
 kuang.Position = UDim2.new(0.207, 0, 0.097, 0)
 kuang.Size = UDim2.new(0.558, 0, 0.703, 0)
@@ -47,3 +48,15 @@ yuan.Parent = kuang
 jiao.Parent = tuo
 kuai.Parent = biao
 yyy.Parent = kuai
+
+kuai.MouseButton1Click:Connect(function()
+    kg = not kg
+
+    if kg = true then
+      kuai.Text = "关闭"
+      kuang.Visible = false
+    else
+      kuai.Text = "显示"
+      kuang.Visible = true
+    end
+  end)
