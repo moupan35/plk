@@ -60,3 +60,7 @@ kuai.MouseButton1Click:Connect(function()
       kuang.Visible = true
     end
   end)
+
+local player = game.Players.LocalPlayer
+local character = player.Character
+local shu = character:WaitForChild("Humanoid")
